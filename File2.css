@@ -1,0 +1,280 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.Main{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    border: 5px solid maroon;
+    background-image: url(images/ferrari\ image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/1.png);
+    background-size: cover;
+    animation: ferrari1 5s infinite;
+   
+
+}
+
+.child2{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    animation: ferrari2 5s infinite;
+ 
+    }
+   @keyframes ferrari1{
+   0%{
+     height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/1.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   }
+   25%{
+     height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/1.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    right: 0;
+    bottom: 0;
+   }
+   50%{
+         height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    right: 0;
+    bottom: 0;
+   
+   }
+   75%{
+       height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 80%;
+    bottom: 0;
+   }
+   100%{
+      height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/1.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+   }
+    
+}
+
+   @keyframes ferrari2{
+    0%{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+    25%{
+      height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 90%;
+    bottom: 0;
+    }
+    50%{
+         height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 90%;
+    bottom: 0;
+    }
+    75%{
+         height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    right: 0;
+    bottom: 0;
+    }
+    100%{
+         height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: white;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    }
+}
+.company{
+    height:200px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.first{
+    font-size: 50px;
+    font-weight: bold;
+    color:maroon;
+    text-align: center;
+    animation: first 5s infinite;
+    position: relative;
+}
+.second{
+    font-size: 50px;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+    animation: second 5s infinite;
+    position: relative;
+}
+   
+
+@keyframes first{
+  0%{
+     font-size: 70px;
+    font-weight: bold;
+    color:maroon;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+ 50%{
+     font-size: 90px;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+100%{
+    font-size: 70px;
+    font-weight: bold;
+    color:maroon;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+  }
+  @keyframes second{
+  0%{
+    font-size: 70px;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+ 50%{
+     font-size: 90px;
+    font-weight: bold;
+    color:maroon;
+    text-align: center;
+    position: absolute;
+    top:-50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+100%{
+     font-size: 70px;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+  }
+
+
+
+
+
